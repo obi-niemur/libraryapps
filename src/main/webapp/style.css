@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+/* *{box-sizing: border-box}; */
+
+
+
+
+/* Main Page Styling */
+.main-title-head {
+	text-align: center
+}
+
+.buttons {
+	text-align: center;
+}
+
+.button_style {
+	width: 200px;
+	height: 40px;
+	margin-right: 30px;
+}
+
+.formStyle {
+	display: inline;
+}
+
+
+
+
+
