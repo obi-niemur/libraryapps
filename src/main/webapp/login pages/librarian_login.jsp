@@ -13,7 +13,7 @@
 <h1>Librarian's Login here</h1>
 
 
-<form  action="/librarian_UI.jsp" method="post">
+<form  action="libraianLogin_process.jsp" method="post">
    
     <div class="container">
       <label for="uname"><b>Username</b></label>

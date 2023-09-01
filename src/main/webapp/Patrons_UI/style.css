@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+
+img {
+	height: 100px;
+	width: 150px;
+	max-width: 100%
+}
+
+.object {
+	position: relative;
+	
+}
+
+.button {
+	position: absolute;
+	top: 50px;
+	padding: 10px;
+	width:100px;
+	
+}
+
+.button2 {
+	position: absolute;
+	bottom: 40px;
+	padding: 10px;
+	width: 100px;
+	margin: -4px;
+	
+}
+
+.bookTtitle {
+	font-size: 30px;
+	color: #5343c4;
+}
+
+table {
+  table-layout: auto;
+  width: 300px;
+  max-width:100%;
+  
+}
+
+td {
+  
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+

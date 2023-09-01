@@ -2,6 +2,7 @@
     pageEncoding="ISO-8859-1"%>
     
 <%@page import="java.sql.*, java.util.*" %>
+<%@ include file="../database/databseCon.jsp" %>
 
 <%
 String username = request.getParameter("user_name");
@@ -11,10 +12,7 @@ String password = request.getParameter("password");
 String confrmPassword = request.getParameter("confirm_password");
 
 try{
- 	Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-	String Url = "jdbc:sqlserver://REVIZE_OBI\\SQLEXPRESS01;encrypt=false;databaseName=libraryApplication;user=obi;password=Hello";
-	Connection conn = DriverManager.getConnection(Url);
-	Statement st=conn.createStatement();
+ 	
 	
 	if(password.equals(confrmPassword)){
 		
